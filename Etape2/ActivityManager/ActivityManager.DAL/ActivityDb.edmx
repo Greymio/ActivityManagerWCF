@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ActivityDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Activity">
+          <Key>
+            <PropertyRef Name="IdActivity" />
+          </Key>
+          <Property Name="IdActivity" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Libelle" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="IdSubActivity" Type="int" />
+          <Property Name="Adress" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Num" Type="int" Nullable="false" />
+          <Property Name="Zip" Type="nvarchar" MaxLength="5" Nullable="false" />
+          <Property Name="City" Type="nvarchar" MaxLength="250" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OrgActivity">
+          <Key>
+            <PropertyRef Name="IdActivity" />
+            <PropertyRef Name="IdOrganisateur" />
+          </Key>
+          <Property Name="IdActivity" Type="int" Nullable="false" />
+          <Property Name="IdOrganisateur" Type="int" Nullable="false" />
+          <Property Name="StartDate" Type="date" Nullable="false" />
+          <Property Name="EndDate" Type="date" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Organisator">
+          <Key>
+            <PropertyRef Name="IdOrganisateur" />
+          </Key>
+          <Property Name="IdOrganisateur" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nom" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NickName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Mail" Type="nvarchar" MaxLength="312" Nullable="false" />
+          <Property Name="Tel" Type="nvarchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="People">
+          <Key>
+            <PropertyRef Name="IdParticipant" />
+          </Key>
+          <Property Name="IdParticipant" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nom" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PeopleActivity">
+          <Key>
+            <PropertyRef Name="IdParticipant" />
+            <PropertyRef Name="IdActivity" />
+          </Key>
+          <Property Name="IdParticipant" Type="int" Nullable="false" />
+          <Property Name="IdActivity" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Activity_Activity">
+          <End Role="Activity" Type="Self.Activity" Multiplicity="0..1" />
+          <End Role="Activity1" Type="Self.Activity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Activity">
+              <PropertyRef Name="IdActivity" />
+            </Principal>
+            <Dependent Role="Activity1">
+              <PropertyRef Name="IdSubActivity" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrgActivity_Activity">
+          <End Role="Activity" Type="Self.Activity" Multiplicity="1" />
+          <End Role="OrgActivity" Type="Self.OrgActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Activity">
+              <PropertyRef Name="IdActivity" />
+            </Principal>
+            <Dependent Role="OrgActivity">
+              <PropertyRef Name="IdActivity" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrgActivity_Organisator">
+          <End Role="Organisator" Type="Self.Organisator" Multiplicity="1" />
+          <End Role="OrgActivity" Type="Self.OrgActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organisator">
+              <PropertyRef Name="IdOrganisateur" />
+            </Principal>
+            <Dependent Role="OrgActivity">
+              <PropertyRef Name="IdOrganisateur" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PeopleActivity_Activity">
+          <End Role="Activity" Type="Self.Activity" Multiplicity="1" />
+          <End Role="PeopleActivity" Type="Self.PeopleActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Activity">
+              <PropertyRef Name="IdActivity" />
+            </Principal>
+            <Dependent Role="PeopleActivity">
+              <PropertyRef Name="IdActivity" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PeopleActivity_People">
+          <End Role="People" Type="Self.People" Multiplicity="1" />
+          <End Role="PeopleActivity" Type="Self.PeopleActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="People">
+              <PropertyRef Name="IdParticipant" />
+            </Principal>
+            <Dependent Role="PeopleActivity">
+              <PropertyRef Name="IdParticipant" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ActivityDbModelStoreContainer">
+          <EntitySet Name="Activity" EntityType="Self.Activity" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrgActivity" EntityType="Self.OrgActivity" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Organisator" EntityType="Self.Organisator" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="People" EntityType="Self.People" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PeopleActivity" EntityType="Self.PeopleActivity" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Activity_Activity" Association="Self.FK_Activity_Activity">
+            <End Role="Activity" EntitySet="Activity" />
+            <End Role="Activity1" EntitySet="Activity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrgActivity_Activity" Association="Self.FK_OrgActivity_Activity">
+            <End Role="Activity" EntitySet="Activity" />
+            <End Role="OrgActivity" EntitySet="OrgActivity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrgActivity_Organisator" Association="Self.FK_OrgActivity_Organisator">
+            <End Role="Organisator" EntitySet="Organisator" />
+            <End Role="OrgActivity" EntitySet="OrgActivity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PeopleActivity_Activity" Association="Self.FK_PeopleActivity_Activity">
+            <End Role="Activity" EntitySet="Activity" />
+            <End Role="PeopleActivity" EntitySet="PeopleActivity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PeopleActivity_People" Association="Self.FK_PeopleActivity_People">
+            <End Role="People" EntitySet="People" />
+            <End Role="PeopleActivity" EntitySet="PeopleActivity" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ActivityDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Activity">
+          <Key>
+            <PropertyRef Name="IdActivity" />
+          </Key>
+          <Property Name="IdActivity" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Libelle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="IdSubActivity" Type="Int32" />
+          <Property Name="Adress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Num" Type="Int32" Nullable="false" />
+          <Property Name="Zip" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="City" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Activity1" Relationship="Self.FK_Activity_Activity" FromRole="Activity" ToRole="Activity1" />
+          <NavigationProperty Name="Activity2" Relationship="Self.FK_Activity_Activity" FromRole="Activity1" ToRole="Activity" />
+          <NavigationProperty Name="OrgActivity" Relationship="Self.FK_OrgActivity_Activity" FromRole="Activity" ToRole="OrgActivity" />
+          <NavigationProperty Name="People" Relationship="Self.PeopleActivity" FromRole="Activity" ToRole="People" />
+        </EntityType>
+        <EntityType Name="OrgActivity">
+          <Key>
+            <PropertyRef Name="IdActivity" />
+            <PropertyRef Name="IdOrganisateur" />
+          </Key>
+          <Property Name="IdActivity" Type="Int32" Nullable="false" />
+          <Property Name="IdOrganisateur" Type="Int32" Nullable="false" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="0" />
+          <NavigationProperty Name="Activity" Relationship="Self.FK_OrgActivity_Activity" FromRole="OrgActivity" ToRole="Activity" />
+          <NavigationProperty Name="Organisator" Relationship="Self.FK_OrgActivity_Organisator" FromRole="OrgActivity" ToRole="Organisator" />
+        </EntityType>
+        <EntityType Name="Organisator">
+          <Key>
+            <PropertyRef Name="IdOrganisateur" />
+          </Key>
+          <Property Name="IdOrganisateur" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="NickName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Mail" Type="String" MaxLength="312" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Tel" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="OrgActivity" Relationship="Self.FK_OrgActivity_Organisator" FromRole="Organisator" ToRole="OrgActivity" />
+        </EntityType>
+        <EntityType Name="People">
+          <Key>
+            <PropertyRef Name="IdParticipant" />
+          </Key>
+          <Property Name="IdParticipant" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Activity" Relationship="Self.PeopleActivity" FromRole="People" ToRole="Activity" />
+        </EntityType>
+        <Association Name="FK_Activity_Activity">
+          <End Role="Activity" Type="Self.Activity" Multiplicity="0..1" />
+          <End Role="Activity1" Type="Self.Activity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Activity">
+              <PropertyRef Name="IdActivity" />
+            </Principal>
+            <Dependent Role="Activity1">
+              <PropertyRef Name="IdSubActivity" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrgActivity_Activity">
+          <End Role="Activity" Type="Self.Activity" Multiplicity="1" />
+          <End Role="OrgActivity" Type="Self.OrgActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Activity">
+              <PropertyRef Name="IdActivity" />
+            </Principal>
+            <Dependent Role="OrgActivity">
+              <PropertyRef Name="IdActivity" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_OrgActivity_Organisator">
+          <End Role="Organisator" Type="Self.Organisator" Multiplicity="1" />
+          <End Role="OrgActivity" Type="Self.OrgActivity" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Organisator">
+              <PropertyRef Name="IdOrganisateur" />
+            </Principal>
+            <Dependent Role="OrgActivity">
+              <PropertyRef Name="IdOrganisateur" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="PeopleActivity">
+          <End Role="Activity" Type="Self.Activity" Multiplicity="*" />
+          <End Role="People" Type="Self.People" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="ActivityDbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Activity" EntityType="Self.Activity" />
+          <EntitySet Name="OrgActivity" EntityType="Self.OrgActivity" />
+          <EntitySet Name="Organisator" EntityType="Self.Organisator" />
+          <EntitySet Name="People" EntityType="Self.People" />
+          <AssociationSet Name="FK_Activity_Activity" Association="Self.FK_Activity_Activity">
+            <End Role="Activity" EntitySet="Activity" />
+            <End Role="Activity1" EntitySet="Activity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrgActivity_Activity" Association="Self.FK_OrgActivity_Activity">
+            <End Role="Activity" EntitySet="Activity" />
+            <End Role="OrgActivity" EntitySet="OrgActivity" />
+          </AssociationSet>
+          <AssociationSet Name="FK_OrgActivity_Organisator" Association="Self.FK_OrgActivity_Organisator">
+            <End Role="Organisator" EntitySet="Organisator" />
+            <End Role="OrgActivity" EntitySet="OrgActivity" />
+          </AssociationSet>
+          <AssociationSet Name="PeopleActivity" Association="Self.PeopleActivity">
+            <End Role="Activity" EntitySet="Activity" />
+            <End Role="People" EntitySet="People" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ActivityDbModelStoreContainer" CdmEntityContainer="ActivityDbEntities">
+          <EntitySetMapping Name="Activity">
+            <EntityTypeMapping TypeName="ActivityDbModel.Activity">
+              <MappingFragment StoreEntitySet="Activity">
+                <ScalarProperty Name="IdActivity" ColumnName="IdActivity" />
+                <ScalarProperty Name="Libelle" ColumnName="Libelle" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="IdSubActivity" ColumnName="IdSubActivity" />
+                <ScalarProperty Name="Adress" ColumnName="Adress" />
+                <ScalarProperty Name="Num" ColumnName="Num" />
+                <ScalarProperty Name="Zip" ColumnName="Zip" />
+                <ScalarProperty Name="City" ColumnName="City" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OrgActivity">
+            <EntityTypeMapping TypeName="ActivityDbModel.OrgActivity">
+              <MappingFragment StoreEntitySet="OrgActivity">
+                <ScalarProperty Name="IdActivity" ColumnName="IdActivity" />
+                <ScalarProperty Name="IdOrganisateur" ColumnName="IdOrganisateur" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Organisator">
+            <EntityTypeMapping TypeName="ActivityDbModel.Organisator">
+              <MappingFragment StoreEntitySet="Organisator">
+                <ScalarProperty Name="IdOrganisateur" ColumnName="IdOrganisateur" />
+                <ScalarProperty Name="Nom" ColumnName="Nom" />
+                <ScalarProperty Name="NickName" ColumnName="NickName" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="Tel" ColumnName="Tel" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="People">
+            <EntityTypeMapping TypeName="ActivityDbModel.People">
+              <MappingFragment StoreEntitySet="People">
+                <ScalarProperty Name="IdParticipant" ColumnName="IdParticipant" />
+                <ScalarProperty Name="Nom" ColumnName="Nom" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="PeopleActivity" TypeName="ActivityDbModel.PeopleActivity" StoreEntitySet="PeopleActivity">
+            <EndProperty Name="Activity">
+              <ScalarProperty Name="IdActivity" ColumnName="IdActivity" />
+            </EndProperty>
+            <EndProperty Name="People">
+              <ScalarProperty Name="IdParticipant" ColumnName="IdParticipant" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

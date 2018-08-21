@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ActivityDbModelStoreContainer" CdmEntityContainer="ActivityDbEntities">
+    <EntitySetMapping Name="Activity">
+      <EntityTypeMapping TypeName="ActivityDbModel.Activity">
+        <MappingFragment StoreEntitySet="Activity">
+          <ScalarProperty Name="IdActivity" ColumnName="IdActivity" />
+          <ScalarProperty Name="Libelle" ColumnName="Libelle" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="IdSubActivity" ColumnName="IdSubActivity" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="Num" ColumnName="Num" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="City" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrgActivity">
+      <EntityTypeMapping TypeName="ActivityDbModel.OrgActivity">
+        <MappingFragment StoreEntitySet="OrgActivity">
+          <ScalarProperty Name="IdActivity" ColumnName="IdActivity" />
+          <ScalarProperty Name="IdOrganisateur" ColumnName="IdOrganisateur" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Organisator">
+      <EntityTypeMapping TypeName="ActivityDbModel.Organisator">
+        <MappingFragment StoreEntitySet="Organisator">
+          <ScalarProperty Name="IdOrganisateur" ColumnName="IdOrganisateur" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+          <ScalarProperty Name="NickName" ColumnName="NickName" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="ActivityDbModel.People">
+        <MappingFragment StoreEntitySet="People">
+          <ScalarProperty Name="IdParticipant" ColumnName="IdParticipant" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="PeopleActivity" TypeName="ActivityDbModel.PeopleActivity" StoreEntitySet="PeopleActivity">
+      <EndProperty Name="Activity">
+        <ScalarProperty Name="IdActivity" ColumnName="IdActivity" />
+      </EndProperty>
+      <EndProperty Name="People">
+        <ScalarProperty Name="IdParticipant" ColumnName="IdParticipant" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

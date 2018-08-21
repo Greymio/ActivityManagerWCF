@@ -1,0 +1,76 @@
+﻿<Controls:MetroWindow x:Class="WPFActivityManager.Views.ActivityView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+          xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Activities" Height="600" Width="800"
+        DataContext="{Binding Source={StaticResource Avm}}"
+        WindowStartupLocation="CenterScreen"          >
+
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <DataGrid Grid.Row="1" IsReadOnly="True" ItemsSource="{Binding LActivity}"  Style="{StaticResource AzureDataGrid}" SelectedItem="{Binding SelectedItem}">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="ShowHideDetails" >Details</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+    <Controls:MetroWindow.Flyouts>
+        <Controls:FlyoutsControl Visibility="Visible">
+            <Controls:Flyout x:Name="DetailsFlyout" Header="Activity Details"  Position="Right" Width="400"  DataContext="{Binding}">
+                <!-- Your custom content here -->
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                 
+                <Label Content="Libelle" Grid.Row="0" Grid.Column="0" />
+                <Label Content="Description" Grid.Row="1" Grid.Column="0" />
+                <Label Content="Adress" Grid.Row="2" Grid.Column="0"/>
+                    <TextBox Text="{Binding SelectedItem.Libelle}" Grid.Row="0" Grid.Column="1" />
+                    <TextBox Text="{Binding SelectedItem.Description}" Grid.Row="1" Grid.Column="1" />
+                    <Grid  Grid.Row="2" Grid.Column="1" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Label Content="Numero" Grid.Row="0" Grid.Column="0" />
+                        <Label Content="Rue" Grid.Row="1" Grid.Column="0" />
+                        <Label Content="Code postal" Grid.Row="2" Grid.Column="0"/>
+                        <Label Content="Ville" Grid.Row="3" Grid.Column="0"/>
+                        <TextBox Text="{Binding SelectedItem.Num}" Grid.Row="0" Grid.Column="1"/>
+                        <TextBox Text="{Binding SelectedItem.Adress}" Grid.Row="1" Grid.Column="1"/>
+                        <TextBox Text="{Binding SelectedItem.Zip}" Grid.Row="2" Grid.Column="1"/>
+                        <TextBox Text="{Binding SelectedItem.City}" Grid.Row="3" Grid.Column="1"/>
+                    </Grid>
+                    <Button Command="{Binding CmdSave}" Grid.Row="3" Grid.ColumnSpan="2" Content="Save"/>
+
+                </Grid>
+            </Controls:Flyout>
+        </Controls:FlyoutsControl>
+    </Controls:MetroWindow.Flyouts>
+</Controls:MetroWindow>

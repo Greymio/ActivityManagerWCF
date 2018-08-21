@@ -1,0 +1,14 @@
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.Test\bin\Debug\ActivityManager.Test.dll.config
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.Test\bin\Debug\ActivityManager.Test.dll
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.Test\bin\Debug\ActivityManager.Test.pdb
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.Test\obj\Debug\ActivityManager.Test.csprojResolveAssemblyReference.cache
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.Test\obj\Debug\ActivityManager.Test.dll
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.Test\obj\Debug\ActivityManager.Test.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.Test\bin\Debug\ActivityManager.Test.dll.config
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.Test\bin\Debug\ActivityManager.Test.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.Test\bin\Debug\ActivityManager.Test.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.Test\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.Test\obj\Debug\ActivityManager.Test.csprojResolveAssemblyReference.cache
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.Test\obj\Debug\ActivityManager.Test.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.Test\obj\Debug\ActivityManager.Test.pdb

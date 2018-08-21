@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8f8c3e66-a1df-4976-9e5f-556c98952464" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/ActivityManager.Services/IActivity/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ActivityManager.wsdl" MetadataType="Wsdl" ID="f2d7ce34-a171-46ca-b67c-6f72557d99e1" SourceId="1" SourceUrl="http://localhost:8733/ActivityManager.Services/IActivity/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="fd3c40a4-1fd4-42e8-accb-c5b6beedbd6f" SourceId="1" SourceUrl="http://localhost:8733/ActivityManager.Services/IActivity/mex" />
+    <MetadataFile FileName="ActivityManager.xsd" MetadataType="Schema" ID="5ada375a-b998-4926-a071-0ce18d7df3b3" SourceId="1" SourceUrl="http://localhost:8733/ActivityManager.Services/IActivity/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="623df894-3b48-4d53-a4b3-9e83c4768ba3" SourceId="1" SourceUrl="http://localhost:8733/ActivityManager.Services/IActivity/mex" />
+    <MetadataFile FileName="ActivityManager.DAL.ClientModel.xsd" MetadataType="Schema" ID="c4d8d281-3356-4584-b53c-edbf29920baa" SourceId="1" SourceUrl="http://localhost:8733/ActivityManager.Services/IActivity/mex" />
+    <MetadataFile FileName="ActivityManager.Services.Faults.xsd" MetadataType="Schema" ID="44da3231-84c6-4f9e-85d0-8efb9cef542c" SourceId="1" SourceUrl="http://localhost:8733/ActivityManager.Services/IActivity/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

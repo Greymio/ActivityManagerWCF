@@ -1,0 +1,177 @@
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.exe.config
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.exe
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.pdb
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csprojResolveAssemblyReference.cache
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\Views\Home.baml
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\Views\Home.g.cs
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\App.g.cs
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager_MarkupCompile.cache
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager_MarkupCompile.lref
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\App.baml
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.g.resources
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.Properties.Resources.resources
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csproj.GenerateResource.Cache
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.exe
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.pdb
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\Views\Modal\WindowDialog.baml
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\Views\Modal\WindowDialog.g.cs
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\Resources\Icons.baml
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.dll
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.pdb
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.xml
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\VMResource.baml
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\Prism.dll
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\Prism.Wpf.dll
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\Prism.xml
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\bin\Debug\Prism.Wpf.xml
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\Views\ActivityView.baml
+C:\Users\Student\documents\visual studio 2013\Projects\ActivityManager\WPFActivityManager\obj\Debug\Views\ActivityView.g.cs
+\\10.10.50.100\share\Public\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.exe.config
+\\10.10.50.100\share\Public\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.exe
+\\10.10.50.100\share\Public\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.pdb
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.exe.config
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.exe
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.pdb
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.exe
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.pdb
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.Wpf.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\System.Windows.Interactivity.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.pdb
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.xml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.xml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.Wpf.xml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csprojResolveAssemblyReference.cache
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Resources\Icons.baml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Resources\IconsNonShared.baml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\ActivityView.baml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Home.baml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Modal\WindowDialog.baml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\App.baml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\ActivityView.g.cs
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Home.g.cs
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Modal\WindowDialog.g.cs
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\App.g.cs
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager_MarkupCompile.cache
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager_MarkupCompile.lref
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\VMResource.baml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.g.resources
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.Properties.Resources.resources
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csproj.GenerateResource.Cache
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.exe.config
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.exe
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.exe
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.Wpf.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\System.Windows.Interactivity.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.xml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.xml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.Wpf.xml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csprojResolveAssemblyReference.cache
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Resources\Icons.baml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Resources\IconsNonShared.baml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\ActivityView.baml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Home.baml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Modal\WindowDialog.baml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\App.baml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\ActivityView.g.cs
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Home.g.cs
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Modal\WindowDialog.g.cs
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\App.g.cs
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager_MarkupCompile.cache
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager_MarkupCompile.lref
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\VMResource.baml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.g.resources
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.Properties.Resources.resources
+D:\sandbox\ActivityManager\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csproj.GenerateResource.Cache
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.exe.config
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.exe
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.pdb
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.Wpf.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\System.Windows.Interactivity.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.pdb
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.xml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.xml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.Wpf.xml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csprojAssemblyReference.cache
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Resources\Icons.baml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Resources\IconsNonShared.baml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\ActivityView.baml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Home.baml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Modal\WindowDialog.baml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\App.baml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\ActivityView.g.cs
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Home.g.cs
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Modal\WindowDialog.g.cs
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\App.g.cs
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager_MarkupCompile.cache
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager_MarkupCompile.lref
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\VMResource.baml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.g.resources
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.Properties.Resources.resources
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csproj.GenerateResource.cache
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csproj.CoreCompileInputs.cache
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csproj.CopyComplete
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.exe
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.pdb
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.exe.config
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.exe
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\WPFActivityManager.pdb
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.dll
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.dll
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.Wpf.dll
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.pdb
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\MahApps.Metro.xml
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.xml
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\bin\Debug\Prism.Wpf.xml
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csprojAssemblyReference.cache
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Resources\Icons.baml
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\ActivityView.baml
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Home.baml
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Modal\WindowDialog.baml
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\App.baml
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\ActivityView.g.cs
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Home.g.cs
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\Views\Modal\WindowDialog.g.cs
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\App.g.cs
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager_MarkupCompile.cache
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager_MarkupCompile.lref
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\VMResource.baml
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.g.resources
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.Properties.Resources.resources
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csproj.GenerateResource.cache
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csproj.CoreCompileInputs.cache
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.csproj.CopyComplete
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.exe
+C:\Users\laure\Documents\Projets\Projets\ActivityManagerWCF\Etape2\ActivityManager\WPFActivityManager\obj\Debug\WPFActivityManager.pdb

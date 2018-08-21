@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="30b1aed1cfc94f7bbd3289ae49115e97" Name="Diagram1">
+        <EntityTypeShape EntityType="ActivityDbModel.Activity" Width="1.5" PointX="4.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ActivityDbModel.OrgActivity" Width="1.5" PointX="7.875" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ActivityDbModel.Organisator" Width="1.5" PointX="10.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ActivityDbModel.People" Width="1.5" PointX="1.875" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="ActivityDbModel.FK_Activity_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="ActivityDbModel.FK_OrgActivity_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="ActivityDbModel.FK_OrgActivity_Organisator" ManuallyRouted="false" />
+        <AssociationConnector Association="ActivityDbModel.PeopleActivity" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,47 @@
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.Mapper.dll
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.Mapper.pdb
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.ClientModel.dll
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.dll
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\EntityFramework.dll
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.ClientModel.pdb
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.pdb
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\EntityFramework.xml
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.csprojResolveAssemblyReference.cache
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.dll
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.pdb
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.Mapper.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.Mapper.pdb
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.ClientModel.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\EntityFramework.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.ClientModel.pdb
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.pdb
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\EntityFramework.xml
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.csprojResolveAssemblyReference.cache
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.Mapper.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.Mapper.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.ClientModel.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\EntityFramework.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.ClientModel.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\EntityFramework.xml
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.csprojResolveAssemblyReference.cache
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.pdb
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.Mapper.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.Mapper.pdb
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.ClientModel.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\EntityFramework.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.ClientModel.pdb
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.pdb
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\ActivityManager.DAL.dll.config
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\bin\Debug\EntityFramework.xml
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.csprojAssemblyReference.cache
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.csproj.CoreCompileInputs.cache
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.csproj.CopyComplete
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.Mapper\obj\Debug\ActivityManager.DAL.Mapper.pdb

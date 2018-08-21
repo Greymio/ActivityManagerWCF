@@ -1,0 +1,21 @@
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.ClientModel\bin\Debug\ActivityManager.DAL.ClientModel.dll
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.ClientModel\bin\Debug\ActivityManager.DAL.ClientModel.pdb
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.csprojResolveAssemblyReference.cache
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.dll
+c:\users\student\documents\visual studio 2013\Projects\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.pdb
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\bin\Debug\ActivityManager.DAL.ClientModel.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\bin\Debug\ActivityManager.DAL.ClientModel.pdb
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.csprojResolveAssemblyReference.cache
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.dll
+F:\Technobel\Dotnet developer\Cours\Dotnet_Dev\_WCF + remédiation-self study 1 jour\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\bin\Debug\ActivityManager.DAL.ClientModel.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\bin\Debug\ActivityManager.DAL.ClientModel.pdb
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.csprojResolveAssemblyReference.cache
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.dll
+D:\sandbox\ActivityManager\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.pdb
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\bin\Debug\ActivityManager.DAL.ClientModel.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\bin\Debug\ActivityManager.DAL.ClientModel.pdb
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.csprojAssemblyReference.cache
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.csproj.CoreCompileInputs.cache
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.dll
+C:\sandbox\ActivityManagerWCF\Etape2\ActivityManager\ActivityManager.DAL.ClientModel\obj\Debug\ActivityManager.DAL.ClientModel.pdb

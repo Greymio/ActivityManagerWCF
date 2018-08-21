@@ -1,0 +1,66 @@
+﻿<Controls:MetroWindow  x:Class="WPFActivityManager.Views.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Home" Height="417.328" Width="617.612"
+        WindowStartupLocation="CenterScreen"
+        DataContext="{Binding Source={StaticResource Hvm }}" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style x:Key="LargeTileStyle" TargetType="Controls:Tile">
+            <Setter Property="Width" Value="300" />
+            <Setter Property="Height" Value="125" />
+            <Setter Property="TitleFontSize" Value="10" />
+        </Style>
+
+        <Style x:Key="SmallTileStyle" TargetType="Controls:Tile">
+            <Setter Property="Width" Value="147" />
+            <Setter Property="Height" Value="125" />
+            <Setter Property="TitleFontSize" Value="10" />
+        </Style>
+    </Window.Resources>
+    <Controls:MetroWindow.IconTemplate>
+        <DataTemplate>
+            <Grid Width="{TemplateBinding Width}"
+                 Height="{TemplateBinding Height}"
+                 Margin="4"
+                 Background="Transparent"
+                 RenderOptions.EdgeMode="Aliased"
+                 RenderOptions.BitmapScalingMode="HighQuality">
+                <Rectangle>
+                    <Rectangle.Fill>
+                        <VisualBrush Visual="{StaticResource appbar_github}" />
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+        </DataTemplate>
+    </Controls:MetroWindow.IconTemplate>
+
+
+
+
+    <WrapPanel  Width="637" Height="382" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,-25,-28">
+        <Controls:Tile Title="Activities" Style="{StaticResource LargeTileStyle}"  Margin="3" Cursor="Hand" Command="{Binding ActivityCmd}">
+            <Controls:Tile.Background>
+                <ImageBrush ImageSource="/WPFActivityManager;component/images/bg.png" />
+            </Controls:Tile.Background>
+        </Controls:Tile>
+        <Controls:Tile Title="Search" Style="{StaticResource LargeTileStyle}"  Margin="3" Cursor="Hand"  Command="{Binding SearchCmd}">
+            <Controls:Tile.Background>
+                <ImageBrush ImageSource="/WPFActivityManager;component/images/search.png" />
+            </Controls:Tile.Background>
+        </Controls:Tile>
+        <Controls:Tile Title="People" Style="{StaticResource LargeTileStyle}" Background="#D2691E"  Cursor="Hand" Command="{Binding PeopleCmd}">
+
+            <Image Source="/WPFActivityManager;component/images/people.ico" />
+
+        </Controls:Tile>
+        <Controls:Tile Title="Sheduler" Style="{StaticResource LargeTileStyle}" Background="#1E90FF"  Cursor="Hand">
+            <Image Source="/WPFActivityManager;component/images/scheduler.png" />
+
+        </Controls:Tile>
+        <Controls:Tile Title="Register" Style="{StaticResource SmallTileStyle}" Background="Green"  Cursor="Hand">
+            <Image Source="/WPFActivityManager;component/images/register.png" />
+        </Controls:Tile>
+    </WrapPanel>
+
+</Controls:MetroWindow>
